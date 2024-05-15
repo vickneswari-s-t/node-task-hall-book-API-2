@@ -6,4 +6,4 @@ const PORT = 8000;
 
 app.use(express.json())
 app.use('/', appRoutes);
-app.listen(PORT, () => console.log(`App is listening to ${Port}`));
+app.listen(PORT, () => console.log(`App is listening to ${PORT}`));
