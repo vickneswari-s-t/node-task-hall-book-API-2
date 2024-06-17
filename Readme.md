@@ -22,6 +22,14 @@ index.js file is in src folder,so in package.son file
 main file:'src/index.js'
 then:start:'node src/index.js'
 dev:'nodemon src/index.js'
- then create under src
- common folder,controller,router under folder create file
-create code,connect path  
+then create under src
+common folder,controller,router under folder create file
+create code,connect path
+
+---
+
+postman:
+get:uselocalhost
+http:/localhost/8000
+http:/localhost/8000/room
+http:/localhost/8000/room/allcustomer
